@@ -1,0 +1,60 @@
+.container {
+    width: 100%;
+    height: 330px;
+    background-color: #555;
+    opacity: 0.7;
+    float: left;
+}
+
+.container__banner {
+    height: 330px;
+    background-image: url('https://image.freepik.com/free-photo/reading-adult-person-entrepreneur-job_1262-2693.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: center;
+    z-index: -1;
+}
+
+.title__search {
+    position: absolute;
+    top: 110px;
+    left: 505px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 38px;
+    font-weight: lighter;
+    color: white;
+}
+
+.input__search {
+    position: absolute;
+    top: 220px;
+    left: 410px;
+    width: 410px;
+    height: 45px;
+    border-radius: 8px 0 0 8px;
+    border: none;
+    padding-left: 20px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button__search {
+    position: absolute;
+    top: 220px;
+    left: 822px;
+    width: 47px;
+    height: 47px;
+    border-radius: 0 8px 8px 0;
+    border: none;
+    background-color: #3aba91;
+    color: white;
+}
+
+.subtitle__search {
+    position: absolute;
+    top: 275px;
+    left: 530px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}

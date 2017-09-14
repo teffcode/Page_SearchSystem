@@ -1,0 +1,9 @@
+.container__featured {
+    margin-left: 90px;
+}
+
+.container__featured > h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: gray;
+}
